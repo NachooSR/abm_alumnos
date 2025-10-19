@@ -19,6 +19,8 @@ MENU ALUMNOS
 1- Cargar Alumnos 
 2- Editar Alumnos
 3- Dar de baja Alumno
+4- Mostrar alumno
+5- Mostrar Curso
 ---------------------- 
 """
     print(menu)
@@ -44,7 +46,8 @@ def menu_edit():
     1-Nombre
     2-Apellido
     3-DNI
-    4-Cambiar de curso
+    4-Fecha nacimiento
+    5-Cambiar de curso
     ---------------------- 
     """
     print(menu)

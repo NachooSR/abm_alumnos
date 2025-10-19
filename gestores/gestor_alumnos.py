@@ -1,6 +1,7 @@
 from models import Alumno
 from .gestor_cursos import GestorCursos
 from .gestor_materias import GestorMaterias
+from utils.decorators import log_action
 
 class GestorAlumnos:
     
@@ -10,7 +11,7 @@ class GestorAlumnos:
         self.listado_alumnos= []
 
     #region CRUD    
-
+    @log_action("agregar alumno")
     def agregar_alumno(self, alumno):
         
         #Id del curso validado

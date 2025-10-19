@@ -1,2 +1,2 @@
 from .menus import *
-from .interfaz import *
+from .decorators import *
