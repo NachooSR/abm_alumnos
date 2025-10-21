@@ -61,6 +61,7 @@ class GestorAlumnos:
         print(f"\nFecha nacimiento:{alumno.fecha_nacimiento} ")
         print(f"\nId Curso:{alumno.id_curso}")
 
+    @log_action("editar alumno")
     def edit_alumno(self,leg_edit,**kwargs):
         for a in self.listado_alumnos:
           if a.legajo == leg_edit:
@@ -70,6 +71,7 @@ class GestorAlumnos:
              setattr(a,key,value)
         print("Alumno editado correctamente")
     
+    @log_action("eliminar alumno")
     def eliminar_alumno(self,legajo):
         if not self.exist_legajo(legajo):
             print("Legajo dont exist")

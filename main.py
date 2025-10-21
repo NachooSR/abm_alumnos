@@ -68,9 +68,12 @@ if __name__ == "__main__":
                 match option:
                     case 1:
                         aux= interfaz.cargarAlumno()
-                        gestor_alumnos.agregar_alumno(aux)
-                        print(f">>>>Alumno ID:{aux.id_alumno} agregado correctamente")
-                        # gestor_alumnos.mostrar_alumno(aux.legajo) el alumno se agrega
+                        
+                        try:
+                            gestor_alumnos.agregar_alumno(aux)
+                            print(">>>Alumno agregado correctamente\n")
+                        except ValueError as e:
+                            print(e)
                     case 2:
                         legajo_buscar= input("Ingrese legajo a editar: ").strip()
                         exist_alumno= gestor_alumnos.exist_legajo(legajo_buscar)
@@ -147,3 +150,12 @@ if __name__ == "__main__":
                 condicion= False
             case _:
                 print("Opcion invalida")
+
+
+'''
+
+Arreglar Decorador--> Hacer que los errores se guarden en el log, capturar las excepciones
+Modificar funciones de editar y de eliminar, arrojar excepcion
+Si falla No mostrar el alumno "modificado" arrojar error
+
+'''

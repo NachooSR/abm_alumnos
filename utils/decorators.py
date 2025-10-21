@@ -28,10 +28,12 @@ def log_action(accion_realizar: str):
                 resultado = func(*args,**kwargs)
                 message=f"[{date_currently}] Operacion ({operacion}) Exitosa-> {info_extra}\n"
             except ValueError as e:
-                message=f"[{date_currently}] Operacion ({operacion}) Erronea-> {e}"
-            
-            with open ("data/logs.txt","a") as file:
-                file.write(message)
-            return resultado
+                message=f"[{date_currently}] Operacion ({operacion}) Erronea-> {e}\n"
+                resultado = None
+                raise
+            finally:
+                with open ("data/logs.txt","a") as file:
+                    file.write(message)
+                return resultado
         return wrapper
     return decorador

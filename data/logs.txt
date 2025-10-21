@@ -1,5 +1,1 @@
-[18/10/2025 - 16:37:31]Operacion(Agregar alumno) Exitosa->Legajo:A001
-[18/10/2025 - 16:37:31]Operacion(Agregar alumno) Exitosa->Legajo:A002
-[18/10/2025 - 16:37:31]Operacion(Agregar alumno) Exitosa->Legajo:A003
-[18/10/2025 - 16:37:31]Operacion(Agregar alumno) Exitosa->Legajo:A004
-[18/10/2025 - 16:37:31]Operacion(Agregar alumno) Exitosa->Legajo:A005
+
