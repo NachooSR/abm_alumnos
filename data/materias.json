@@ -1,0 +1,32 @@
+[
+  {
+    "id_curso": 1,
+    "id_materia": 101,
+    "nombre": "Matemática I"
+  },
+  {
+    "id_curso": 1,
+    "id_materia": 102,
+    "nombre": "Lengua y Literatura"
+  },
+  {
+    "id_curso": 1,
+    "id_materia": 103,
+    "nombre": "Historia"
+  },
+  {
+    "id_curso": 2,
+    "id_materia": 201,
+    "nombre": "Matemática II"
+  },
+  {
+    "id_curso": 2,
+    "id_materia": 202,
+    "nombre": "Física"
+  },
+  {
+    "id_curso": 2,
+    "id_materia": 203,
+    "nombre": "Química"
+  }
+]

@@ -1,0 +1,47 @@
+[
+    {
+    "id_alumno": 1,
+    "id_curso": 1,
+    "legajo": "A001",
+    "nombre": "Lucas",
+    "apellido": "Perez",
+    "dni": "40011222",
+    "fecha_nacimiento": "06/01/2003"
+  },
+  {
+    "id_alumno": 2,
+    "id_curso": 1,
+    "legajo": "A002",
+    "nombre": "Maria",
+    "apellido": "Lopez",
+    "dni": "40022333",
+    "fecha_nacimiento": "10/07/2007"
+  },
+  {
+    "id_alumno": 3,
+    "id_curso": 2,
+    "legajo": "A003",
+    "nombre": "Juan",
+    "apellido": "Garcia",
+    "dni": "39987654",
+    "fecha_nacimiento": "17/10/2005"
+  },
+  {
+    "id_alumno": 4,
+    "id_curso": 2,
+    "legajo": "A004",
+    "nombre": "Sofia",
+    "apellido": "Rodriguez",
+    "dni": "39845231",
+    "fecha_nacimiento": "10/05/2002"
+  },
+  {
+    "id_alumno": 5,
+    "id_curso": 3,
+    "legajo": "A005",
+    "nombre": "Tomas",
+    "apellido": "Fernandez",
+    "dni": "39776544",
+    "fecha_nacimiento": "06/01/2002"
+  }
+]
