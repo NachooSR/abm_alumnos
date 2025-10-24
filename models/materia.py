@@ -9,3 +9,8 @@ class Materia:
             f"Id_Curso:   {self.id_curso}\n"
             f"Materia:    {self.nombre}\n"
         )
+    def __repr__(self):
+        return (f"{type(self).__name__}(\n"
+                f"(id_curso={self.id_curso!r},\n"
+                f"id_materia={self.id_materia!r},\n" 
+                f"nombre={self.nombre!r},\n")

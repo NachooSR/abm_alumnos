@@ -2,20 +2,20 @@
   {
     "id_curso": 1,
     "anio": 1,
-    "profesor": "Prof. Gómez",
-    "nombre": "1° Año A"
+    "profesor": "Prof. Gomez",
+    "nombre": "1 Ano A"
   },
   {
     "id_curso": 2,
     "anio": 2,
-    "profesor": "Prof. Martínez",
-    "nombre": "2° Año B"
+    "profesor": "Prof. Martinez",
+    "nombre": "2 Ano B"
   },
   {
     "id_curso": 3,
     "anio": 3,
-    "profesor": "Prof. Ramírez",
-    "nombre": "3° Año A"
+    "profesor": "Prof. Ramirez",
+    "nombre": "3 Ano A"
   }
 ]
 

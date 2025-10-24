@@ -2,7 +2,7 @@
   {
     "id_curso": 1,
     "id_materia": 101,
-    "nombre": "Matemática I"
+    "nombre": "Matematica I"
   },
   {
     "id_curso": 1,
@@ -17,16 +17,16 @@
   {
     "id_curso": 2,
     "id_materia": 201,
-    "nombre": "Matemática II"
+    "nombre": "Matematica II"
   },
   {
     "id_curso": 2,
     "id_materia": 202,
-    "nombre": "Física"
+    "nombre": "Fisica"
   },
   {
     "id_curso": 2,
     "id_materia": 203,
-    "nombre": "Química"
+    "nombre": "Quimica"
   }
 ]
