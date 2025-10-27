@@ -1,12 +1,24 @@
 import datetime
+from typing import Callable,Any
 
-def log_action(accion_realizar: str):
+def log_action(accion_realizar: str)-> Callable:
+    """
+    Decorador que registra en un archivo de log el resultado de una operacion 
+    (exitosa o con error) ejecutada en un metodo.
+
+    Args:
+        accion_realizar (str): Descripcion de la accion a registrar( 
+        agregar, eliminar o editar alumno).
+
+    Returns:
+        function: Decorador que envuelve la funcion original para registrar su ejecucion.
+    """
     
     def decorador(func):
         
-        def wrapper(*args,**kwargs):
+        def wrapper(*args: Any,**kwargs: Any):
             
-            message=''
+            message =''
             info_extra=''
             operacion= accion_realizar.capitalize()
 

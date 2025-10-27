@@ -3,7 +3,15 @@ import  models
 import json
  
 
-def initial_load():
+def initial_load()-> list[models.Alumno]|list[models.Curso]|list[models.Materia]:
+    """
+    Carga inicial desde el archivo a los gestores
+
+    Returns:
+        list(Alumno): Lista de alumnos
+        list(Curso): Lista con los cursos
+        list(Materia): Lista con las materias 
+    """
        
     lista_cursos=[]
     lista_materias=[]

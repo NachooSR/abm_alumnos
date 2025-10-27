@@ -1,4 +1,5 @@
 def menu_inicial():
+    """Menu principal que se mostrara al usuario"""
     menu = """
 ----------------------
 MENU PRINCIPAL
@@ -11,6 +12,7 @@ MENU PRINCIPAL
     print(menu)
 
 def menu_alumnos():
+    """Submenu para administrar alumnos"""
     
     menu = """
 ----------------------
@@ -26,6 +28,7 @@ MENU ALUMNOS
     print(menu)
     
 def menu_notas():
+    """Submenu para administrar notas"""
     
     menu = """
     ----------------------
@@ -38,6 +41,7 @@ def menu_notas():
     print(menu)
 
 def menu_edit():
+    """Submenu para elegir que editar del alumno"""
     
     menu = """
     ----------------------

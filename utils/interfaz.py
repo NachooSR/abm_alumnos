@@ -1,7 +1,15 @@
 from models import Alumno
 from gestores import GestorAlumnos
 
-def cargarAlumno():
+def cargarAlumno()-> Alumno:
+    """
+    Funcion encargada de cargar los datos
+    de un alumno mediante la consola
+
+    Returns:
+        alumno(Alumno): Alumno con sus datos cargados
+    """
+    
     condicion = True 
     
     while condicion:
@@ -24,7 +32,17 @@ def cargarAlumno():
     
     
 
-def validar_dni(dni):
+def validar_dni(dni: str)->bool:
+    """
+    Valida el dni del alumno mediante 
+    su longitud o formato
+
+    Args:
+        dni(str): dni de la persona/alumno
+    
+    Returns:
+        bool: True si es un dni valido, False caso contrario
+    """
     if not dni.isdigit() or len(dni)<7 or len(dni)>9 :
         return False
     return True
